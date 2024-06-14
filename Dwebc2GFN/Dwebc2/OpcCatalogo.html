@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <title>Pasteleria Richi</title>
+    <head> 
+
+       <meta charset="utf-8"/> 
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
+       <link href="Css/estilos.css" rel="stylesheet">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <header>
+            <img class="image_header" src="Imagenes/Logo1.jpg">  
+        </header>       
+        <section>
+            <h1 class="titulo_page">Pasteleria Richi</h1>
+        </section>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Nuestros Productos:</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="galletaclasica.html">Galletas Clasicas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galletaespe.html">Galletas Especiales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="chocolateria.html">Chocolateria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Carrito.html">Pedidos</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+        </nav>                                   
+            <article class="article6">
+              <p class="titulo_article">Creacion de Productos</p>
+              <p>En este espacio se registraran los nuevos productos</p>
+              <form action="Php/datos.php" method="post">
+                <input class="input_stilo" type="text"  name="nombreP" required id="nombreP" placeholder="Nombre del producto"><br>
+                <input class="input_stilo" type="text"  name="descriptionP" required id="descriptionP" placeholder="Descripcion"><br>
+                <input class="input_stilo" type="number" name="valorP"required id="valorP" placeholder="Valor del producto"><br>
+                <input class="input_stilo" type="image"  name="imagenP" alt="imagenP" ><br>
+                <input class="input_stilo" type="submit" value="Enviar"><br>
+              </form>
+            </article>          
+        </section>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

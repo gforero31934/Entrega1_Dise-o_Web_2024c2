@@ -1,0 +1,64 @@
+[
+	{
+		"precio": 3500,
+		"id": 1,
+		"title": "Alfajor",
+		"thumbnailUrl": "Imagenes/Alfajo-coco-y-arequipe.jpg"
+	},
+
+	{
+		"precio": 3000,
+		"id": 2,
+		"title": "Galletas Decoradas",
+		"thumbnailUrl": "Imagenes/decoradas.jpg"
+	},
+
+	{
+		"precio": 2000,
+		"id": 3,
+		"title": "Galletas de Azucar",
+		"thumbnailUrl": "Imagenes/azucar.jpg"
+	},
+
+	{
+		"precio": 2500,
+		"id": 4,
+		"title": "Galletas de Mantequilla",
+		"thumbnailUrl": "Imagenes/mantequilla2.jpg"
+	},
+
+	{
+		"precio": 2500,
+		"id": 4,
+		"title": "Galletas de Jengibre",
+		"thumbnailUrl": "Imagenes/jengibre.jpg"
+	},
+
+	{
+		"precio": 3500,
+		"id": 4,
+		"title": "Galletas Mermelada",
+		"thumbnailUrl": "Imagenes/mermelada.jpg"
+	},
+
+	{
+		"precio": 4000,
+		"id": 4,
+		"title": "Bombones Rellenos",
+		"thumbnailUrl": "Imagenes/bombonesrellenos.jpg"
+	},
+
+	{
+		"precio": 10500,
+		"id": 4,
+		"title": "Barras de Chocolate",
+		"thumbnailUrl": "Imagenes/barraschoco.jpg"
+	},
+	
+	{
+		"precio": 5500,
+		"id": 4,
+		"title": "Trufas de Chocolate",
+		"thumbnailUrl": "Imagenes/trufas.jpg"
+	}
+]
